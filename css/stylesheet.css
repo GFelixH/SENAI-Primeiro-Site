@@ -1,11 +1,17 @@
+*{
+    /* tirar margin e padding do navegador */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 nav a{
     background-color: #364652;
     border: 1px solid #364652;
     border-radius: 100px;
     text-decoration: none;
-    margin: 15px;
-    text-align: left;
     color: white;
+    padding: 10px 10px 10px 10px;
+    
 
 }
 header{
@@ -13,4 +19,17 @@ header{
 }
 #logo{
     border-radius: 100px;
+}
+.layout-grid{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#header-flex{
+    display: flex;
+    justify-content: center;
+}
+#nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
