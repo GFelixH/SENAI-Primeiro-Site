@@ -31,6 +31,7 @@ header, footer{
     flex-wrap: wrap;
     min-width: 200px;
     flex-flow: row;
+    justify-content: space-evenly;
 }
 .flex-itens{
     margin: 5px 5px;
@@ -38,12 +39,12 @@ header, footer{
 }
 .flex-container2{
     display: flex;
-        /* responsive behavior */
-        flex-wrap: wrap;
-        min-width: 200px;
-        flex-flow: row;
-        justify-content: center;
-        background-color: #071108
+    /* responsive behavior */
+    flex-wrap: wrap;
+    min-width: 200px;
+    flex-flow: row;
+    justify-content: center;
+    background-color: #071108
     
 
 }
@@ -52,5 +53,8 @@ header, footer{
     margin: 0;
 }
 table{
-    justify-content: center;
+    justify-content: space-evenly;
+}
+#banner{
+        background-color: #071108;
 }
