@@ -33,7 +33,7 @@ header, footer{
     flex-flow: row;
     justify-content: space-evenly;
 }
-.flex-itens{
+.flex-items{
     margin: 5px 5px;
     align-items:center ;
 }
