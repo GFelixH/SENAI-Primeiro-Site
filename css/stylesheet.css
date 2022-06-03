@@ -23,7 +23,7 @@ header, footer{
 #nav{
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content:flex-end;
 }
 .flex-container{
     display: flex;
@@ -34,8 +34,8 @@ header, footer{
     justify-content: space-evenly;
 }
 .flex-items{
-    margin: 5px 5px;
-    align-items:center ;
+    margin: 10px 10px;
+
 }
 .flex-container2{
     display: flex;
@@ -57,4 +57,24 @@ table{
 }
 #banner{
         background-color: #071108;
+}
+#ini{
+    position: absolute;
+    left: 40%;
+}
+#jog{
+    position: absolute;
+    left:50%
+}
+#sob{
+    position: absolute;
+    left:60%;
+}
+#cad{
+    position:absolute;
+    left:70%;
+}
+#log{
+    position:absolute;
+    left:80%;
 }
