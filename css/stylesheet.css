@@ -33,28 +33,11 @@ header, footer{
     min-width: 200px;
     flex-flow: row;
     justify-content: space-evenly;
-}
-.flex-items{
-    margin: 10px 10px;
-
-}
-.flex-container2{
-    display: flex;
-    /* responsive behavior */
-    flex-wrap: wrap;
-    min-width: 200px;
-    flex-flow: row;
-    justify-content: center;
-    background-color: #071108
-    
-
-}
-.flex-container2 img{
-    border-radius: 100px;
-    margin: 0;
+    border: 0;
 }
 table{
     justify-content: space-evenly;
+    border: none;
 }
 #banner{
         background-color: #071108;
@@ -78,4 +61,9 @@ table{
 #log{
     position:absolute;
     left:80%;
+}
+/* para bootstrap css */
+.vendas{
+    background-color: #071108;
+    align-items:center;
 }
