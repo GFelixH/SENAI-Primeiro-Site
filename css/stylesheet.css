@@ -104,3 +104,18 @@ li img{
     border-radius: 100px;
 }
 /* produtos texto */
+#div-texto-produtos{
+    margin: auto auto;
+    width: 90%;
+    text-align: center;
+}
+#div-texto-produtos p{
+    color: #ffffff;
+    background-color: #364652;
+    border-radius: 50px;
+    padding: 15px;
+}
+#div-texto-produtos li{
+    display: inline-block;
+    margin:70px;
+}   
