@@ -63,9 +63,21 @@ nav ul{
     position:relative;
     left: 200px;
     bottom:20px;
+    /* ACHEI */
+    margin-bottom: 0px;
     
 }
 nav li{
     display:inline;
     margin-left: 50px;
+}
+main{
+    background: #071108;
+}
+#banner{
+    width: 90%;
+    margin:auto auto;
+}
+#banner img{
+    width: 100%;
 }
