@@ -4,104 +4,67 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-/* / `xxl` applies to x-large devices (large desktops, less than 1400px)  */
-@media (max-width: 2652px) {
-
-    #navbar{
-        display: none;
-        padding:0;
-        margin: 0;
-    }
-    .bordacinza {
-            background-color: #364652;
-            border: 1px solid #364652;
-            border-radius: 100px;
-            text-decoration: none;
-            color: white;
-            padding: 5px 5px;
-            text-align: center;
-    
-    
-        }
-    
-        header,
-        footer {
-            background-color: #5E8C61;
-        }
-    
-        #logo {
-            border-radius: 100px;
-        }
-    
-        #nav {
-            display: flex;
-            width: 100%;
-            justify-content: flex-end;
-        }
-    
-        .flex-container {
-            display: flex;
-            /* responsive behavior */
-            flex-wrap: wrap;
-            min-width: 200px;
-            flex-flow: row;
-            justify-content: space-evenly;
-            border: 0;
-        }
-    
-        table {
-            justify-content: space-evenly;
-            border: none;
-        }
-    
-        #banner {
-            background-color: #071108;
-        }
-    
-        #ini {
-            position: absolute;
-            left: 40%;
-        }
-    
-        #jog {
-            position: absolute;
-            left: 50%
-        }
-    
-        #sob {
-            position: absolute;
-            left: 60%;
-        }
-    
-        #cad {
-            position: absolute;
-            left: 70%;
-        }
-    
-        #log {
-            position: absolute;
-            left: 80%;
-        }
-    
-        /* para bootstrap css */
-        .vendas {
-            background-color: #071108;
-            align-items: center;
-        }
+#logo{
+    display: inline;
+    width: 200px;
+    height: 100px;
+    margin: 10px 10px;
+    border-radius: 50px;
 }
-/* // `lg` applies to medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-   #cssheader{
-       display:none;
-   }
-   #navbar {
-       display:block;
+header{
     background-color: #5E8C61;
-    margin: 0;
-   }
+}
+#header-div{
+    box-sizing: border-box;
+    width: 90%;
+    margin: auto auto;
+}
+header h1{
+    display:inline;
+    color: #FFFFFF;
+    background-color: #364652;
+    border-radius: 50px;
+    text-align: center;
+    padding: 0 13px;
+    position: relative;
+    left: 30px;
+}
+#lupa{
+    width: 35px;
+    height: 35px;
+    display:inline-block;
+}
+header form{
+    display:inline;
+}
+header input{
+    width:20%;
+    color: #FFFFFF;
+    background: #364652;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+#searchbar{
+    display: inline;
+    position: relative;
+    left: 250px;
+}
+nav a{
+    text-decoration: none;
+    color:#FFFFFF;
+    background-color: #364652;
+    border-radius: 50px;
+    padding: 5px 20px;
+}
+nav ul{
+    list-style: none;
+    /* display: inline; */
+    position:relative;
+    left: 200px;
+    bottom:20px;
     
 }
- /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-    
+nav li{
+    display:inline;
+    margin-left: 50px;
 }
