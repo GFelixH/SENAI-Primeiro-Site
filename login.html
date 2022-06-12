@@ -9,6 +9,7 @@
     <meta name="description" content="primeiro site">
     <meta name="keywords" content="HTML, CSS, JAVASCRIPT, SENAI">
     <meta name="author" content="Felix">
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/stylesheet.css" type="text/css">
     <script type="text/javascript" src="./javascript/script.js"></script>
     <!-- bootstrap css -->
@@ -47,17 +48,17 @@
                     <li class="email">
                         <label class="email" for="email_login">Insira seu e-mail:</label>
                     </li>
-                    <li><input type="email" id="email_login">
+                    <li><input type="email" id="email_login" placeholder="user@example.com" class="bordacinza">
                     </li>
                     <!-- senha -->
                     <li>
                         <label for="senha">Insira sua senha:</label>
                     </li>
                     <li>
-                        <input type="password" id="senha">
+                        <input type="password" class="bordacinza" id="senha">
                     </li>
                     <!-- submit -->
-                    <input type="button" value="login">
+                    <input type="button" value="login" class="bordacinza enviar">
                 </ul>
         </div>
         </form>
