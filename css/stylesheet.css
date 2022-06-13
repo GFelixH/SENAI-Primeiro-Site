@@ -20,21 +20,19 @@
 /* header */
 header {
   background-color: #5e8c61;
-  margin: 0;
 }
 #header-div {
-  box-sizing: border-box;
-  width: 90%;
-  margin: auto auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 header h1 {
-  display: inline;
   color: #ffffff;
   text-align: center;
   padding: 0 13px;
-  position: relative;
-  left: 30px;
   transition: 1s all;
+  height: 70px;
+  margin-right: 30%;
 }
 header h1:hover {
   cursor: default;
@@ -44,20 +42,15 @@ header h1:hover {
 #lupa {
   width: 35px;
   height: 35px;
-  display: inline-block;
 }
-header form {
-  display: inline;
-}
-header input {
-  width: 20%;
+#header-div input {
   color: #ffffff;
-  padding: 5px 10px;
+  padding: 5px 20px;
 }
 #searchbar {
-  display: inline;
-  position: relative;
-  left: 250px;
+  display: flex;
+  margin-right: 10%;
+  flex-basis: 20%;
 }
 nav a {
   text-decoration: none;
@@ -69,16 +62,15 @@ nav a:hover {
   padding: 10px;
 }
 nav ul {
-  /* display: inline; */
-  position: relative;
-  left: 200px;
-  bottom: 20px;
-  /* ACHEI */
   margin-bottom: 0px;
 }
-nav li {
-  display: inline;
-  margin-left: 50px;
+#list-navbar {
+  display: flex;
+  justify-content: center;
+  margin-right: 30%;
+}
+#list-navbar li {
+  margin: 20px;
 }
 /* banner */
 main {
