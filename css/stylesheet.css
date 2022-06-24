@@ -201,3 +201,11 @@ body a:hover {
 .carousel-container {
   padding: 5rem;
 }
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  margin: 1rem;
+}
