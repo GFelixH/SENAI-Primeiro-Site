@@ -195,3 +195,9 @@ body a:hover {
   display: flex;
   flex-direction: column;
 }
+.carousel-item {
+  background-position: center;
+}
+.carousel-container {
+  padding: 5rem;
+}
