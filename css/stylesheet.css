@@ -102,20 +102,7 @@ main {
 li img {
   border-radius: 100px;
 }
-/* produtos texto */
-#div-texto-produtos {
-  margin: 0 auto;
-  width: 90%;
-  text-align: center;
-}
-#div-texto-produtos p {
-  color: #ffffff;
-  padding: 15px;
-}
-#div-texto-produtos li {
-  display: inline-block;
-  margin: 70px;
-}
+/* footer */
 footer {
   background-color: #5e8c61;
 }
@@ -126,7 +113,6 @@ footer {
   margin: auto auto;
   width: 90%;
 }
-/* footer */
 #div-footer {
   display: flex;
   justify-content: center;
@@ -206,6 +192,6 @@ body a:hover {
   flex-wrap: wrap;
   justify-content: center;
 }
-.card {
+/* .card {
   margin: 1rem;
-}
+} */
