@@ -10,11 +10,7 @@
   --fontWhite: white;
 }
 * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
   font-family: "Roboto Mono", monospace;
-  list-style: none;
   color: var(--fontBlack);
 }
 .svg-filter {

@@ -39,8 +39,7 @@ main {
 }
 .destaques-first-container img {
   cursor: pointer;
-  margin-top: 4rem;
-  margin-left: 3rem;
+  margin: 4rem 0 0 3rem;
   width: 40vw;
   height: 20vw;
   border-radius: 20px;
@@ -53,7 +52,6 @@ main {
   height: 30vw;
 }
 /* produtos */
-
 .cards-container img {
   margin: 0 auto;
   width: 15rem;
@@ -66,7 +64,6 @@ main {
 }
 /* propaganda */
 .propaganda {
-  margin-left: 25rem;
-  margin-bottom: 2rem;
+  margin: 0 0 2rem 25rem;
   border-radius: 20px;
 }
