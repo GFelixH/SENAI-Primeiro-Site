@@ -16,7 +16,10 @@
   list-style: none;
   color: var(--fontBlack);
 }
-
+.svg-filter {
+  filter: invert(6%) sepia(34%) saturate(1712%) hue-rotate(172deg)
+    brightness(99%) contrast(86%);
+}
 /* ETC */
 /* maxwidth */
 /* cell 360px */
