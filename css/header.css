@@ -1,10 +1,10 @@
 /* header */
 header {
+  padding: 3rem;
   background: var(--mainGreen);
 }
 /* first container */
 .header-first-container {
-  padding: 3rem;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -45,4 +45,46 @@ header {
 .switch-bttn-container p {
   margin-top: 1.7rem;
   padding: 0 1rem;
+  cursor: pointer;
+}
+.header-second-container {
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.navbar-bttn {
+  cursor: pointer;
+  position: absolute;
+  left: 3rem;
+  width: 30%;
+  border-radius: 30px;
+  background: var(--navbarRed);
+  justify-content: center;
+}
+.navbar-bttn p {
+  color: white;
+  /* margin: 0 3rem; */
+  font-size: 2.5rem;
+}
+.navbar-bttn img {
+  margin-top: 0.5rem;
+  margin-right: 10px;
+}
+.header-searchbar input {
+  position: relative;
+  left: 10rem;
+  background: var(--blackContainer);
+  border-radius: 30px;
+  width: 25rem;
+  color: white;
+  text-align: center;
+}
+.header-searchbar input::placeholder {
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.header-searchbar img {
+  position: relative;
+  left: 10rem;
 }
