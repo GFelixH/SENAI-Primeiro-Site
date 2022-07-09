@@ -1,0 +1,72 @@
+/* main banner */
+body {
+  background-color: var(--backgroundBlack);
+}
+main {
+  clear: left;
+  max-width: 1444px;
+  margin: 0 auto;
+}
+.banner {
+  background: var(--backgroundBlack);
+  height: 90vh;
+}
+.banner img {
+  width: 80vw;
+  height: 90vh;
+  float: left;
+}
+.banner-text {
+  text-align: end;
+  position: relative;
+  top: 2rem;
+  right: 5rem;
+  font-size: 3rem;
+}
+/* destaques */
+.destaques {
+  clear: left;
+  background: var(--backgroundBlack);
+}
+.destaques-texto {
+  background: var(--mainGreen);
+  display: inline-block;
+  border-radius: 17px;
+  text-align: center;
+  width: 15rem;
+  font-size: 1.7rem;
+  margin: 1.7rem 0 1.7rem 3rem;
+}
+.destaques-first-container img {
+  cursor: pointer;
+  margin-top: 4rem;
+  margin-left: 3rem;
+  width: 40vw;
+  height: 20vw;
+  border-radius: 20px;
+}
+.destques-second-container img {
+  cursor: pointer;
+  margin: 4rem 0 4rem 15rem;
+  border-radius: 20px;
+  width: 60vw;
+  height: 30vw;
+}
+/* produtos */
+
+.cards-container img {
+  margin: 0 auto;
+  width: 15rem;
+  height: 20rem;
+}
+.produtos {
+  clear: left;
+  font-size: 1.5rem;
+  margin: 0 9rem;
+}
+/* propaganda */
+.propaganda {
+  margin-left: 25rem;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+}
