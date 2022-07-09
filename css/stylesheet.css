@@ -119,11 +119,19 @@ main {
   font-size: 1.7rem;
 }
 .destaques-first-container img {
+  cursor: pointer;
   margin-top: 4rem;
   margin-left: 3rem;
   width: 40vw;
   height: 20vw;
   border-radius: 20px;
+}
+.destques-second-container img {
+  cursor: pointer;
+  margin: 4rem 0 4rem 15rem;
+  border-radius: 20px;
+  width: 60vw;
+  height: 30vw;
 }
 .cards-container {
   clear: left;
