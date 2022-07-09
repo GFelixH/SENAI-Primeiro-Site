@@ -9,45 +9,81 @@
     <meta name="description" content="primeiro site">
     <meta name="keywords" content="HTML, CSS, JAVASCRIPT, SENAI">
     <meta name="author" content="Felix">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- reset css -->
     <link rel="stylesheet" href="./css/reset.css">
     <!-- BOOTSTRAP -->
-    <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- css -->
     <link rel="stylesheet" href="./css/stylesheet.css" type="text/css">
-    <!-- bootstrap css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
     <title>Game Mania</title>
 </head>
 
 <body>
+    <nav id="navbar" class="hide">
+        <ul>
+            <li class="nav-title">
+                <p class="white-font">Game Mania <span id="xNavBttn" class="white-font xbttn">X</span></p>
+            </li>
+            <li class="nav-socials">
+                <a href="#"><img class="svg-filter" src="./resources/facebook-f-brands.svg" alt="Logo do Facebook"></a>
+                <a href="#"><img class="svg-filter" src="./resources/instagram-square-brands.svg"
+                        alt="Logo do Instagram"></a>
+            </li>
+            <li class="nav-id bordacinza"><a href="./login.html"><img src="./resources/user-solid.svg"
+                        alt="Avatar humano">Login</a></li>
+            <li class="bordacinza"><a href="index.html">Início</a></li>
+            <li class="bordacinza"><a href="#">Jogos</a></li>
+            <li class="bordacinza"><a href="#">Sobre</a></li>
+            <li class="bordacinza"><a href="#">Cadastro</a></li>
+            </li>
+        </ul>
+    </nav>
     <header>
-        <div id="header-div">
-            <img id="logo" src="./resources/logo2.jpg" alt="Logo da pagina">
-            <h1 class="bordacinza">Game Mania</h1>
-            <div id="searchbar">
-                <img id="lupa" src="./resources/magnifying-glass-solid.svg" alt="lupa">
-                <form action="">
-                    <input class="bordacinza" type="search" placeholder="Procure aqui... ">
-                </form>
+        <!-- header-first-container -->
+        <div class="header-first-container usesFlex">
+            <!-- logo -->
+            <div class="logo usesFlex">
+                <img class="svg-filter" src="./resources/gamepad-solid.svg" alt="Símbolo de um controle de video game">
+                <h1>Game Mania</h1>
+            </div>
+            <div class="socials-container usesFlex">
+                <!-- 2 redes sociais -->
+                <a href="#"><img class="svg-filter" src="./resources/facebook-f-brands.svg" alt="Logo do Facebook"></a>
+                <a href="#"><img class="svg-filter" src="./resources/instagram-square-brands.svg"
+                        alt="Logo do Instagram"></a>
+            </div>
+            <!-- switch bttn -->
+            <div id="switchBttn" class="switch-bttn-container usesFlex">
+                <img class="svg-filter" src="./resources/sun-solid.svg" alt="Símbolo do sol">
+                <p>Modo Claro</p>
             </div>
         </div>
-        <nav>
-            <ul id="list-navbar">
-                <li><a class="bordacinza" href="index.html">Início</a></li>
-                <li><a class="bordacinza" href="#">Jogos</a></li>
-                <li><a class="bordacinza" href="#">Sobre</a></li>
-                <li><a class="bordacinza" href="#">Cadastro</a></li>
-                <li><a class="bordacinza" href="login.html">Login</a></li>
-                </li>
-            </ul>
-        </nav>
+        </div>
+        <!-- header-second-container -->
+        <div class="header-second-container usesFlex">
+            <!-- navbarbotao -->
+            <div id="navBttn" class="navbar-bttn usesFlex">
+                <img class="svg-filter" src="./resources/bars-solid.svg" alt="3 Barras alinhadas na vertical">
+                <p class="white-font">Navegue</p>
+            </div>
+            <!-- seachbar -->
+            <div class="header-searchbar usesFlex">
+                <input class="white-font" type="search" placeholder="Digite o que você procura... ">
+                <img class="svg-filter" src="./resources/magnifying-glass-solid.svg" alt="Lupa">
+            </div>
+        </div>
     </header>
     <main>
-        <div id="div-form">
+        <section class="login-section">
             <form action="#" method="post">
-                <ul id="form-ul">
+                <ul>
                     <li class="email">
                         <label class="email" for="email_login">Insira seu e-mail:</label>
                     </li>
@@ -63,57 +99,59 @@
                     <!-- submit -->
                     <input type="button" value="login" class="bordacinza enviar">
                 </ul>
-        </div>
-        </form>
+            </form>
+        </section>
     </main>
     <footer>
-        <div id="div-footer">
-            <ul>
-                <li>
-                    <p> Quem somos?</p>
-                </li>
-                <li>
-                    <p>Localização</p>
-                </li>
-                <li>
-                    <p>Nossas lojas</p>
-                </li>
-                <li>
-                    <p>Siga-nos nas redes sociais</p>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <p>Entrega</p>
-                </li>
-                <li>
-                    <p>Garantia</p>
-                </li>
-                <li>
-                    <p>Fale conosco</p>
-                </li>
-                <li><a href="#"><img class="footer-image" src="./resources/facebook-f-brands.svg"
-                            alt="facebook logo"></a>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <p>SAC</p>
-                </li>
-                <li><a class="bordacinza" href="mailto: email@example.com">email@example.com</a>
-                </li>
-                <li><a class="bordacinza" href="tel:+550099999999">+550099999999</a></li>
-                <li>
-                    <a href="#"><img class="footer-image" src="./resources/instagram-square-brands.svg"
-                            alt="Instagram logo"></a>
-                </li>
-            </ul>
-        </div>
+        <div>
+            <div class="bttnRed">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
+                    Quem Somos?
+                </button>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Localização</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Endereço
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="usesFlex" style="justify-content:space-around;
+                flex-wrap: wrap;">
+                <p class="bordacinza">Entrega</p>
+                <p class="bordacinza">Garantia</p>
+                <a class="bordacinza" href="mailto:email@example.com">email@example.com</a>
+                <p class="bordacinza"><a href="tel:+5500999999999">+55 00 99999-9999</a></p>
+            </div>
     </footer>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    <!-- bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- jquery -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script> -->
+    <!-- js -->
     <script type="text/javascript" src="./javascript/script.js"></script>
 </body>
 

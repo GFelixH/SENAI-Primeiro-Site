@@ -100,6 +100,13 @@ footer {
 .nav-id {
   display: none;
 }
+/*login*/
+.login-section {
+  margin: 0 35%;
+}
+label {
+  color: var(--greenText);
+}
 /*tablet*/
 @media only screen and (max-width: 1150px) {
   .bordacinza {
