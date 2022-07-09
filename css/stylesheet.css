@@ -89,21 +89,34 @@ main {
 }
 .banner {
   background: var(--backgroundBlack);
-  height: 80vh;
+  height: 90vh;
 }
 .banner img {
   width: 80vw;
-  height: 80vh;
+  height: 90vh;
   float: left;
 }
-.banner p {
+.banner-text {
+  text-align: end;
   position: relative;
-  left: 4rem;
   top: 2rem;
-  color: white;
+  right: 5rem;
   font-size: 3rem;
 }
-section {
+/* destaques */
+.destaques {
+  clear: left;
+  background: var(--backgroundBlack);
+}
+.destaques-texto {
+  background: var(--mainGreen);
+  display: inline-block;
+  border-radius: 17px;
+  text-align: center;
+  width: 15rem;
+  margin-top: 1.7rem;
+}
+.cards-container {
   clear: left;
 }
 
