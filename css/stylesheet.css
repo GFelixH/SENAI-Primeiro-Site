@@ -7,6 +7,7 @@
   --redText: #990000;
   --greyContainer: #364652;
   --fontBlack: #15222c;
+  --fontWhite: white;
 }
 * {
   margin: 0px;
@@ -31,7 +32,7 @@ img {
 }
 a {
   text-decoration: none;
-  color: white;
+  color: var(--fontWhite);
 }
 a:hover {
   text-decoration: none;
@@ -40,17 +41,36 @@ a:hover {
 .usesFlex {
   display: flex;
 }
-nav {
+.white-font {
+  color: var(--fontWhite);
+}
+.bordacinza {
+  background: var(--greyContainer);
+  color: var(--fontWhite);
+  padding: 0.6rem;
+  margin: 0.7rem 0;
+  border-radius: 30px;
+  width: 10rem;
+  text-align: center;
+}
+/* navbar */
+.xbttn:hover {
+  cursor: pointer;
+}
+.hide {
   display: none;
+}
+nav {
   background: var(--blackContainer);
   position: sticky;
   top: 0;
   float: left;
   z-index: 1;
   height: 30rem;
+  width: 15rem;
+  border-radius: 50px;
 }
 .nav-title p {
-  color: white;
   font-size: 1.5rem;
   padding: 1rem;
 }
@@ -63,16 +83,7 @@ nav li {
   border-radius: 30px;
   width: 10rem;
 }
-.bordacinza {
-  background: var(--greyContainer);
-  color: white;
-  padding: 0.6rem;
-  margin: 0.7rem 0;
-  border-radius: 30px;
-  width: 10rem;
-  text-align: center;
-}
-
+/* main banner */
 main {
   clear: left;
 }
