@@ -106,3 +106,14 @@ header {
     width: 30vw;
   }
 }
+@media only screen and (max-width: 360px) {
+  .navbar-bttn {
+    width: 80vw;
+  }
+  .logo {
+    flex-wrap: wrap;
+  }
+  .logo h1 {
+    width: auto;
+  }
+}

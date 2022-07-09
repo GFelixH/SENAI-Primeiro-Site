@@ -113,3 +113,25 @@ main {
     display: none;
   }
 }
+@media only screen and (max-width: 360px) {
+  .destaques {
+    display: none;
+  }
+  .destaques {
+    display: none;
+  }
+  .produtos-mobile img {
+    width: 100%;
+    height: 30vh;
+  }
+  .produtos-mobile {
+    margin: 0;
+    display: inline-block;
+  }
+  .card-produto {
+    display: inline-block;
+    background-color: white;
+    border-radius: 30px;
+    margin: 5rem 20vw;
+  }
+}
