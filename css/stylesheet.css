@@ -87,6 +87,25 @@ nav li {
 main {
   clear: left;
 }
+.banner {
+  background: var(--backgroundBlack);
+  height: 80vh;
+}
+.banner img {
+  width: 80vw;
+  height: 80vh;
+  float: left;
+}
+.banner p {
+  position: relative;
+  left: 4rem;
+  top: 2rem;
+  color: white;
+  font-size: 3rem;
+}
+section {
+  clear: left;
+}
 
 /* .enviar {
   padding: 20px;
