@@ -59,7 +59,7 @@ a:hover {
 }
 nav {
   background: var(--blackContainer);
-  position: sticky;
+  position: fixed;
   top: 0;
   float: left;
   z-index: 1;
@@ -94,12 +94,6 @@ footer {
   padding: 2rem;
   margin-left: 30rem;
 }
-/* ETC */
-/* maxwidth */
-/* cell 360px */
-/* tablet 768px min */
-/* desktop 1208px automatic*/
-/* navbar */
 /*tablet*/
 @media only screen and (max-width: 1150px) {
   .bordacinza {
@@ -109,10 +103,9 @@ footer {
     display: none;
   }
   .nav-socials {
-    display: block;
+    display: inline-block;
   }
-  nav {
-    height: auto;
-    /* width: 30%; */
-  }
+}
+/* cell 360px */
+@media only screen and (max-width: 360px) {
 }

@@ -1,5 +1,6 @@
 /* header */
 header {
+  width: 100vw;
   padding: 3rem;
   background: var(--mainGreen);
 }
@@ -9,7 +10,7 @@ header {
   flex-wrap: wrap;
 }
 .logo h1 {
-  width: 24rem;
+  width: 70vw;
   font-weight: bold;
   font-size: 4rem;
 }
@@ -72,7 +73,7 @@ header {
   left: 16rem;
   background: var(--blackContainer);
   border-radius: 20px;
-  width: 30rem;
+  width: 30vw;
   height: 4rem;
   text-align: center;
 }
@@ -100,5 +101,8 @@ header {
   }
   .header-searchbar {
     display: none;
+  }
+  .logo h1 {
+    width: 30vw;
   }
 }
