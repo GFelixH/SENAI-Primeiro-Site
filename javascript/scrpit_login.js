@@ -10,16 +10,12 @@ xNavBttn.addEventListener("click", (evento) => {
 });
 //toggle modo claro
 const modoBttn = document.getElementById("switchBttn");
-let arrayElementos = [];
-arrayElementos.push(document.body);
-arrayElementos.push(document.getElementById("banner"));
-arrayElementos.push(document.getElementById("destaques"));
-modoBttn.addEventListener("click", (evento) => {
-  arrayElementos.forEach((elemento) => {
-    elemento.classList.toggle("branco");
-  });
+modoBttn.addEventListener("click", () => {
+  console.log(document.body);
+  document.body.classList.toggle("branco");
 });
 //validador de formulário
+//se vazio
 function validateForm() {
   let x = document.forms["formLogin"]["email_login"].value;
   if (x == "") {
@@ -28,6 +24,12 @@ function validateForm() {
   let y = document.forms["formLogin"]["password_login"].value;
   if (y == "") {
     alert("Adicionar uma senha");
-    return false;
   }
+  //validador de senha
+  var input = document.getElementById("password_login");
+  input.oninvalid = function (event) {
+    event.target.setCustomValidity(
+      "Senha deve conter de 6 a 12 caracteres, com pelo menos um maiúsculo, um minúsculo e um número."
+    );
+  };
 }
