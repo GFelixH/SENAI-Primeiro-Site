@@ -20,27 +20,53 @@
 
 <body>
     <header>
-        <div id="header-div">
-            <img id="logo" src="./resources/logo2.jpg" alt="Logo da pagina">
-            <h1 class="bordacinza">Game Mania</h1>
+        <div class="header-first-container">
+            <h1>Game Mania</h1>
+            <div>
+                <!-- 2 redes sociais -->
+                <a href="#"><img src="./resources/facebook-f-brands.svg" alt="Logo do Facebook"></a>
+                <a href="#"><img src="./resources/instagram-square-brands.svg" alt="Logo do Instagram"></a>
+            </div>
+            <div>
+                <!-- login -->
+                <a href="./login.html">
+                    <img src="./resources/user-solid.svg" alt="">
+                    <p>Login</p>
+                </a>
+            </div>
+            <!-- botao escuro claro -->
+            <div>
+                <button><img src="./resources/sun-solid.svg" alt="">
+                    <p>Modo Claro</p>
+                </button>
+            </div>
+        </div>
+        <div class="header-second-container">
+            <!-- navbarbotao -->
+            <div class="navbar-button">
+                <img src="./resources/bars-solid.svg" alt="3 Barras alinhadas na vertical">
+                <p>Navegue</p>
+            </div>
+            <!-- seachbar -->
             <div id="searchbar">
                 <img id="lupa" src="./resources/magnifying-glass-solid.svg" alt="lupa">
                 <form action="">
-                    <input class="bordacinza" type="search" placeholder="Procure aqui... ">
+                    <input class="bordacinza" type="search" placeholder="Digite o que você procura... ">
                 </form>
             </div>
         </div>
-        <nav>
-            <ul id="list-navbar">
-                <li><a class="bordacinza" href="index.html">Início</a></li>
-                <li><a class="bordacinza" href="#">Jogos</a></li>
-                <li><a class="bordacinza" href="#">Sobre</a></li>
-                <li><a class="bordacinza" href="#">Cadastro</a></li>
-                <li><a class="bordacinza" href="login.html">Login</a></li>
-                </li>
-            </ul>
-        </nav>
     </header>
+    <!-- navbar -->
+    <nav>
+        <ul class="list-navbar">
+            <li><a class="bordacinza" href="index.html">Início</a></li>
+            <li><a class="bordacinza" href="#">Jogos</a></li>
+            <li><a class="bordacinza" href="#">Sobre</a></li>
+            <li><a class="bordacinza" href="#">Cadastro</a></li>
+            <li><a class="bordacinza" href="login.html">Login</a></li>
+            </li>
+        </ul>
+    </nav>
     <main>
         <!-- banner -->
         <div id="banner">
