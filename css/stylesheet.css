@@ -18,17 +18,60 @@
 }
 
 /* ETC */
+/* maxwidth */
+/* cell 360px */
 /* tablet 768px min */
-/* desktop 1208px */
+/* desktop 1208px automatic*/
 img {
   width: 3rem;
   height: 3rem;
 }
 a {
   text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: var(--greenText);
 }
 .usesFlex {
   display: flex;
+}
+nav {
+  display: none;
+  background: var(--blackContainer);
+  position: sticky;
+  top: 0;
+  float: left;
+  z-index: 1;
+  height: 30rem;
+}
+.nav-title p {
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+nav li {
+  z-index: 2;
+}
+.nav-socials {
+  background: white;
+  padding: 1rem;
+  border-radius: 30px;
+  width: 10rem;
+}
+.bordacinza {
+  background: var(--greyContainer);
+  color: white;
+  padding: 0.6rem;
+  margin: 0.7rem 0;
+  border-radius: 30px;
+  width: 10rem;
+  text-align: center;
+}
+
+main {
+  clear: left;
 }
 
 /* .enviar {
