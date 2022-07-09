@@ -1,18 +1,22 @@
-//navbar button
-const navBttn = document.getElementById("navBttn");
-const navbar = document.getElementById("navbar");
-const xNavBttn = document.getElementById("xNavBttn");
-navBttn.addEventListener("click", (evento) => {
-  navbar.classList.toggle("hide");
-});
-xNavBttn.addEventListener("click", (evento) => {
-  navbar.classList.add("hide");
-});
-//toggle modo claro
-const modoBttn = document.getElementById("switchBttn");
-modoBttn.addEventListener("click", () => {
-  console.log(document.body);
-  document.body.classList.toggle("branco");
+$(function () {
+  $("#navBttn").click(() => {
+    $("#navbar").toggleClass("hide");
+  });
+
+  $("#xNavBttn").click(() => {
+    $("#navbar").addClass("hide");
+  });
+
+  let arrayElementos = [];
+  arrayElementos.push(document.body);
+  arrayElementos.push(document.getElementById("banner"));
+  arrayElementos.push(document.getElementById("destaques"));
+  $("#switchBttn").click(() => {
+    arrayElementos.forEach((elemento) => {
+      elemento.classList.toggle("branco");
+    });
+  });
+  //end jquery
 });
 //validador de formulário
 //se vazio
