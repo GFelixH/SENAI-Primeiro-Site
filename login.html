@@ -84,8 +84,8 @@
         <section class="login-section">
             <form action="#" method="post">
                 <ul>
-                    <li class="email">
-                        <label class="email" for="email_login">Insira seu e-mail:</label>
+                    <li>
+                        <label for="email_login">Insira seu e-mail:</label>
                     </li>
                     <li><input type="email" id="email_login" placeholder="user@example.com" class="bordacinza">
                     </li>
@@ -94,10 +94,12 @@
                         <label for="senha">Insira sua senha:</label>
                     </li>
                     <li>
-                        <input type="password" class="bordacinza" id="senha">
+                        <input pattern="^(?=.8[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%&*_^-+=]).{6,12}$" type="password"
+                            title="A senha deve conter de 6 a 12 caracteres, com pelo menos um maiúsculo, um minúsculo e um número"
+                            class="bordacinza" id="senha">
                     </li>
                     <!-- submit -->
-                    <input type="button" value="login" class="bordacinza enviar">
+                    <input type="button" value="login" class="bordacinza">
                 </ul>
             </form>
         </section>
