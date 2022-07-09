@@ -9,38 +9,48 @@
     <meta name="description" content="primeiro site">
     <meta name="keywords" content="HTML, CSS, JAVASCRIPT, SENAI">
     <meta name="author" content="Felix">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- reset css -->
     <link rel="stylesheet" href="./css/reset.css">
     <!-- BOOTSTRAP -->
-    <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- css -->
     <link rel="stylesheet" href="./css/stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="./css/header.css">
     <title>Game Mania</title>
 </head>
 
 <body>
     <header>
         <!-- header-first-container -->
-        <div class="header-first-container">
-            <!-- nome do site -->
-            <h1>Game Mania</h1>
-            <div>
+        <div class="header-first-container usesFlex">
+            <!-- logo -->
+            <div class="logo usesFlex">
+                <img src="./resources/gamepad-solid.svg" alt="Símbolo de um controle de video game">
+                <h1>Game Mania</h1>
+            </div>
+            <div class="socials-container usesFlex">
                 <!-- 2 redes sociais -->
                 <a href="#"><img src="./resources/facebook-f-brands.svg" alt="Logo do Facebook"></a>
                 <a href="#"><img src="./resources/instagram-square-brands.svg" alt="Logo do Instagram"></a>
             </div>
-            <div>
-                <!-- login -->
-                <a href="./login.html">
+            <div class="usesFlex">
+                <div class="login-container usesFlex">
+                    <!-- login -->
                     <img src="./resources/user-solid.svg" alt="">
-                    <p>Login</p>
-                </a>
-            </div>
-            <!-- botao escuro claro -->
-            <div>
-                <button><img src="./resources/sun-solid.svg" alt="">
+                    <a href="./login.html">
+                        <p>Login</p>
+                    </a>
+                </div>
+                <!-- botao escuro claro -->
+                <div class="switch-bttn-container usesFlex">
+                    <img src="./resources/sun-solid.svg" alt="">
                     <p>Modo Claro</p>
-                </button>
+                </div>
             </div>
         </div>
         <!-- header-second-container -->

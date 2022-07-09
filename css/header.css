@@ -1,0 +1,48 @@
+/* header */
+header {
+  background: var(--mainGreen);
+}
+/* first container */
+.header-first-container {
+  padding: 3rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.logo h1 {
+  width: 24rem;
+  font-weight: bold;
+  font-size: 4rem;
+}
+.logo img {
+  width: 6rem;
+  height: 6rem;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+.header-links-container {
+  justify-content: space-between;
+}
+.socials-container img {
+  margin: 0 2rem;
+  width: 4rem;
+  height: 4rem;
+}
+.login-container p {
+  margin-top: 2.5rem;
+  padding: 0 1rem;
+}
+.login-container img {
+  width: 3rem;
+  height: 4rem;
+}
+.switch-bttn-container {
+  margin-top: 1rem;
+}
+.switch-bttn-container img {
+  width: 3rem;
+  height: 3rem;
+}
+.switch-bttn-container p {
+  margin-top: 1.7rem;
+  padding: 0 1rem;
+}

@@ -1,14 +1,35 @@
+:root {
+  --mainGreen: #097810;
+  --blackContainer: #071108;
+  --backgroundBlack: #15222c;
+  --navbarRed: #990000;
+  --greenText: #73cc60;
+  --redText: #990000;
+  --greyContainer: #364652;
+  --fontBlack: #15222c;
+}
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto Mono", monospace;
   list-style: none;
+  color: var(--fontBlack);
 }
+
+/* ETC */
 img {
-  width: 20px;
-  height: 20px;
+  width: 3rem;
+  height: 3rem;
 }
+a {
+  text-decoration: none;
+}
+.usesFlex {
+  display: flex;
+}
+/* ETC */
+
 /* .enviar {
   padding: 20px;
   color: #ffffff;
