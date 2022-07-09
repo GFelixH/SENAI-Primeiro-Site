@@ -45,9 +45,9 @@ a:hover {
   background: var(--greyContainer);
   color: var(--fontWhite);
   padding: 0.6rem;
-  margin: 0.7rem 0;
+  margin: 0.7rem 2rem;
   border-radius: 30px;
-  width: 10rem;
+  width: auto;
   text-align: center;
 }
 .hide {
@@ -64,10 +64,11 @@ nav {
   float: left;
   z-index: 1;
   height: 30rem;
-  width: 15rem;
+  width: 20rem;
   border-radius: 50px;
 }
 .nav-title p {
+  margin-left: 3rem;
   font-size: 1.5rem;
   padding: 1rem;
 }
@@ -80,6 +81,7 @@ nav li {
   padding: 1rem;
   border-radius: 30px;
   width: 10rem;
+  margin-left: 3rem;
 }
 /* footer */
 footer {
@@ -111,5 +113,6 @@ footer {
   }
   nav {
     height: auto;
+    /* width: 30%; */
   }
 }
