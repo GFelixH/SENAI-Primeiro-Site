@@ -151,10 +151,13 @@ main {
   width: 15rem;
   height: 20rem;
 }
-.cards-container {
+.produtos {
   clear: left;
   font-size: 1.5rem;
+  margin: 0 9rem;
 }
+/* propaganda */
+/* footer */
 footer {
   max-width: 1444px;
   margin: 0 auto;
