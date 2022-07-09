@@ -44,6 +44,12 @@ a:hover {
 .white-font {
   color: var(--fontWhite);
 }
+.red-font {
+  color: var(--redText);
+}
+.green-font {
+  color: var(--greenText);
+}
 .bordacinza {
   background: var(--greyContainer);
   color: var(--fontWhite);
@@ -84,8 +90,13 @@ nav li {
   width: 10rem;
 }
 /* main banner */
+body {
+  background-color: var(--backgroundBlack);
+}
 main {
   clear: left;
+  max-width: 1444px;
+  margin: 0 auto;
 }
 .banner {
   background: var(--backgroundBlack);
@@ -133,10 +144,21 @@ main {
   width: 60vw;
   height: 30vw;
 }
+/* produtos */
+
+.cards-container img {
+  margin: 0 auto;
+  width: 15rem;
+  height: 20rem;
+}
 .cards-container {
   clear: left;
+  font-size: 1.5rem;
 }
-
+footer {
+  max-width: 1444px;
+  margin: 0 auto;
+}
 /* .enviar {
   padding: 20px;
   color: #ffffff;
