@@ -17,11 +17,6 @@
   filter: invert(6%) sepia(34%) saturate(1712%) hue-rotate(172deg)
     brightness(99%) contrast(86%);
 }
-/* ETC */
-/* maxwidth */
-/* cell 360px */
-/* tablet 768px min */
-/* desktop 1208px automatic*/
 img {
   width: 3rem;
   height: 3rem;
@@ -55,12 +50,12 @@ a:hover {
   width: 10rem;
   text-align: center;
 }
-/* navbar */
-.xbttn:hover {
-  cursor: pointer;
-}
 .hide {
   display: none;
+}
+/* desktop first */
+.xbttn:hover {
+  cursor: pointer;
 }
 nav {
   background: var(--blackContainer);
@@ -95,4 +90,13 @@ footer {
 .bttnRed {
   padding: 2rem;
   margin-left: 30rem;
+}
+/* ETC */
+/* maxwidth */
+/* cell 360px */
+/* tablet 768px min */
+/* desktop 1208px automatic*/
+/* navbar */
+/*tablet*/
+@media only screen and (max-width: 1150px) {
 }

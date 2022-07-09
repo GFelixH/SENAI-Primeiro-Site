@@ -88,3 +88,17 @@ header {
   height: 3rem;
   top: 0.5rem;
 }
+@media only screen and (max-width: 1150px) {
+  .socials-container {
+    display: none;
+  }
+  .login-container {
+    display: none;
+  }
+  .switch-bttn-container {
+    display: none;
+  }
+  .header-searchbar {
+    display: none;
+  }
+}
