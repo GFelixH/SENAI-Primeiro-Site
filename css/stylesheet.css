@@ -115,6 +115,15 @@ main {
   text-align: center;
   width: 15rem;
   margin-top: 1.7rem;
+  margin-left: 3rem;
+  font-size: 1.7rem;
+}
+.destaques-first-container img {
+  margin-top: 4rem;
+  margin-left: 3rem;
+  width: 40vw;
+  height: 20vw;
+  border-radius: 20px;
 }
 .cards-container {
   clear: left;
