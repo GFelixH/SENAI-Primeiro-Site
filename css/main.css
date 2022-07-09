@@ -23,6 +23,9 @@ main {
   right: 5rem;
   font-size: 3rem;
 }
+.banner-text-color {
+  color: var(--greenText);
+}
 /* destaques */
 .destaques {
   clear: left;

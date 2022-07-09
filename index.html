@@ -26,17 +26,17 @@
 </head>
 
 <body>
-    <nav class="hide">
+    <nav id="navbar" class="hide">
         <ul>
             <li class="nav-title">
-                <p class="white-font">Game Mania <span class="white-font xbttn">X</span></p>
+                <p class="white-font">Game Mania <span id="xNavBttn" class="white-font xbttn">X</span></p>
             </li>
             <li class="nav-socials">
                 <a href="#"><img class="svg-filter" src="./resources/facebook-f-brands.svg" alt="Logo do Facebook"></a>
                 <a href="#"><img class="svg-filter" src="./resources/instagram-square-brands.svg"
                         alt="Logo do Instagram"></a>
             </li>
-            <li class="bordacinza"><a href="./login.html"><img src="./resources/user-solid.svg"
+            <li class="nav-id bordacinza"><a href="./login.html"><img src="./resources/user-solid.svg"
                         alt="Avatar humano">Login</a></li>
             <li class="bordacinza"><a href="index.html">Início</a></li>
             <li class="bordacinza"><a href="#">Jogos</a></li>
@@ -68,7 +68,7 @@
                     </a>
                 </div>
                 <!-- switch bttn -->
-                <div class="switch-bttn-container usesFlex">
+                <div id="switchBttn" class="switch-bttn-container usesFlex">
                     <img class="svg-filter" src="./resources/sun-solid.svg" alt="Símbolo do sol">
                     <p>Modo Claro</p>
                 </div>
@@ -77,7 +77,7 @@
         <!-- header-second-container -->
         <div class="header-second-container usesFlex">
             <!-- navbarbotao -->
-            <div class="navbar-bttn usesFlex">
+            <div id="navBttn" class="navbar-bttn usesFlex">
                 <img class="svg-filter" src="./resources/bars-solid.svg" alt="3 Barras alinhadas na vertical">
                 <p class="white-font">Navegue</p>
             </div>
@@ -91,18 +91,18 @@
     <!-- navbar -->
     <main>
         <!-- banner -->
-        <section class="banner">
+        <section class="banner" id="banner">
             <img src="./resources/gamer.jpg" alt="Homen olhando para a câmera em frente do computador gamer">
             <div class="banner-text">
-                <p class="white-font">G&nbsp&nbspM</p>
-                <p class="white-font">A&nbsp&nbspA</p>
-                <p class="white-font">M&nbsp&nbspN</p>
-                <p class="white-font">E&nbsp&nbspI</p>
-                <p class="white-font">&nbsp&nbsp&nbspA</p>
+                <p class="banner-text-color" class="white-font">G&nbsp&nbspM</p>
+                <p class="banner-text-color" class="white-font">A&nbsp&nbspA</p>
+                <p class="banner-text-color" class="white-font">M&nbsp&nbspN</p>
+                <p class="banner-text-color" class="white-font">E&nbsp&nbspI</p>
+                <p class="banner-text-color" class="white-font">&nbsp&nbsp&nbspA</p>
             </div>
         </section>
         <!-- destques -->
-        <section class="destaques">
+        <section class="destaques" id="destaques">
             <div class="destaques-texto usesFlex">
                 <img class="svg-filter" src="./resources/exclamation-solid.svg" alt="Ponto de exclamação">
                 <span class="white-font">Destaques</span>
@@ -272,6 +272,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <!-- jquery -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script> -->
     <!-- js -->
     <script type="text/javascript" src="./javascript/script.js"></script>
 </body>

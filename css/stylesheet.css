@@ -53,6 +53,9 @@ a:hover {
 .hide {
   display: none;
 }
+.branco {
+  background-color: white !important;
+}
 /* desktop first */
 .xbttn:hover {
   cursor: pointer;
@@ -94,6 +97,9 @@ footer {
   padding: 2rem;
   margin-left: 30rem;
 }
+.nav-id {
+  display: none;
+}
 /*tablet*/
 @media only screen and (max-width: 1150px) {
   .bordacinza {
@@ -105,8 +111,7 @@ footer {
   .nav-socials {
     display: inline-block;
   }
+  .nav-id {
+    display: block;
+  }
 }
-/* cell 360px */
-/* @media only screen and (max-width: 360px) {
-  .destaques{}
-} */
