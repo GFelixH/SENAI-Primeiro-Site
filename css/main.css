@@ -52,6 +52,9 @@ main {
   height: 30vw;
 }
 /* produtos */
+.produtos-mobile {
+  display: none;
+}
 .cards-container img {
   margin: 0 auto;
   width: 15rem;
@@ -86,5 +89,24 @@ main {
     width: 60vw;
     height: 40vw;
     border-radius: 20px;
+  }
+  .produtos-container {
+    display: none;
+  }
+  .produtos-mobile img {
+    width: 30vw;
+    height: 30vh;
+  }
+  .produtos-mobile {
+    display: inline-block;
+  }
+  .card-produto {
+    display: inline-block;
+    background-color: white;
+    border-radius: 30px;
+    margin: 4rem 60%;
+  }
+  .propaganda {
+    display: none;
   }
 }
